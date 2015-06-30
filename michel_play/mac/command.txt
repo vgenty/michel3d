@@ -1,0 +1,1 @@
+python -i michel_run.py /pnfs/uboone/scratch/uboonepro/mcc6.0_lite/v04_07_00/larlite_mcinfo/prodgenie_bnb_nu_uboone/1791045_*/larlite_mcinfo.root
