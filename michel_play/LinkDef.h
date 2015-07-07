@@ -9,6 +9,8 @@
 #pragma link off all classes;
 #pragma link off all functions;
 
-#pragma link C++ class sample+;
+#pragma link C++ class ertool::ERAlgoTrackTrack+;
+#pragma link C++ class ertool::ERAlgoTrackShower+;
 //ADD_NEW_CLASS ... do not change this line
 #endif
+
