@@ -17,6 +17,7 @@
 
 #include "ERTool/Base/AlgoBase.h"
 
+#include "TTree.h"
 namespace ertool {
 
   /**
@@ -48,6 +49,13 @@ namespace ertool {
     /// Called after processing the last event sample
     void ProcessEnd(TFile* fout=nullptr);
 
+  private:
+
+    bool _verbose = false;
+    TTree* _output_tree;
+    
+    Double_t _dist;
+    
   };
 }
 #endif
